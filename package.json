@@ -1,0 +1,28 @@
+{
+  "name": "relatorio-personalizado-saurus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron src/main.js"
+  },
+  "author": "rodrigoDearo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.3.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "electron-reload": "^2.0.0-alpha.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "path": "^0.12.7",
+    "unrar-js": "^0.2.3",
+    "util": "^0.12.5",
+    "xml2js": "^0.5.0",
+    "xmlbuilder": "^15.1.1",
+    "xmldom": "^0.6.0"
+  }
+}
