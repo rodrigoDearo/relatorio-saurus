@@ -137,10 +137,10 @@ async function gerarRelatorio() {
         
         if (response.ok) {
             if(message=="nao_encontrado"){
-                createCustomAlert("Não foi encontrado um orçamento com a id da movimentação informada, reveja os dados.", 'warning');
+                createCustomAlert("Não foi encontrado uma pre venda com a id da movimentação informada, reveja os dados.", 'warning');
             }
             else if(message=="sucesso"){
-                createCustomAlert("O relatório do seu orçamento foi gerado e salvo com sucesso!", 'success');
+                createCustomAlert("O relatório da sua pre venda foi gerado e salvo com sucesso!", 'success');
             }
             
         } else {
